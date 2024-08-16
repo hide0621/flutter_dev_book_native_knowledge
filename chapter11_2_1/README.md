@@ -1,6 +1,23 @@
 # chapter11_2_1
 
-A new Flutter project.
+**flutter_launcher_icons**の導入
+
+`flutter pub add --dev flutter_launcher_icons`
+
+その後、iOSとAndroid用のアプリアイコンのpngファイルを用意して
+
+pubspec.yamlに
+
+`flutter_launcher_icons:
+  image_path: "icon.png" # アイコン画像のパス
+  ios: true # iOSのアイコンを生成し、デフォルトのものと置き換えるか
+  android: true # Androidのアイコンを生成し、デフォルトのものと置き換えるか`
+
+上記の記述をしたら、
+
+`flutter pub run flutter_launcher_icons`
+
+上記コマンドを実行して、Flutterアプリのデフォルトのアプリアイコンを用意したアイコンに変更する
 
 ## Getting Started
 

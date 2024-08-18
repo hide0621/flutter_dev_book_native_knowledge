@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -88,3 +89,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_native_splash:
+  color: "#00FFFF" # スプラッシュ画面の背景色
+  image: icon.png # スプラッシュ画面の中央に表示する画像
+  android_12: # Android 12以上の標準スプラッシュ画面の設定
+    color: "#FF00FF"
+  android_gravity: left # Androidのアイコンの画像の位置
+  ios_content_mode: left # iOSのアイコンの画像の位置

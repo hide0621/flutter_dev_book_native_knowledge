@@ -13,7 +13,9 @@ pubspec.yamlに
   ios: true # iOSのアイコンを生成し、デフォルトのものと置き換えるか
   android: true # Androidのアイコンを生成し、デフォルトのものと置き換えるか`
 
-上記の記述をしたら（詳しくは[このコミットを参照](https://github.com/hide0621/flutter_dev_book_native_knowledge/commit/9bef98e5b57281b1ab32f77580417b277417e238)）、
+上記の記述をして（詳しくは[このコミットを参照](https://github.com/hide0621/flutter_dev_book_native_knowledge/commit/9bef98e5b57281b1ab32f77580417b277417e238)）、
+
+`pub get`をしたら
 
 `flutter pub run flutter_launcher_icons`
 

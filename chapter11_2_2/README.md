@@ -1,6 +1,14 @@
 # chapter11_2_2
 
-A new Flutter project.
+iOSとAndroid用にスプラッシュ画面を自動生成するには以下のパッケージが必要
+
+`flutter pub add flutter_native_splash`
+
+上記のパッケージを導入して、`pub get`しつつかつプロジェクトのrootにpngファイルを用意した後で、
+
+`dart run flutter_native_splash:create`
+
+このコマンドを実行して自動生成する
 
 ## Getting Started
 
